@@ -59,6 +59,13 @@ p {
   font-size: 18px;
   line-height: 27px;
 }
+.flower-project-padding {
+  padding: 85px 30px;
+}
+.weather-project-padding {
+  padding: 0 30px;
+}
+
 @media (max-width: 900px) {
   .project-description {
     text-align: center;
@@ -74,5 +81,8 @@ p {
   .btn-branding-outline {
     display: block;
     margin: 0 auto;
+  }
+  .flower-project-padding {
+    padding: 10px 30px;
   }
 }
