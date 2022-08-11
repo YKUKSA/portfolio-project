@@ -83,6 +83,9 @@ p {
   font-size: 16px;
   opacity: 0.7;
 }
+.work-content-image {
+  height: 500px;
+}
 .logo {
   max-height: 40px;
 }
