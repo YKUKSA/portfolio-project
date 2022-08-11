@@ -65,22 +65,21 @@ p {
 .weather-project-padding {
   padding: 0 30px;
 }
-.about-project img {
-  border-radius: 15px;
+.project-content img {
+  border-radius: 5px;
 }
-.about-section-content {
+.section-content {
   padding: 160px 20px;
 }
-.about-section-content h1 {
+.section-content h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-section-content h2 {
+.section-content h2 {
   font-size: 18px;
   font-family: var(--secondary-font);
 }
-
-.about-section-content p {
+.section-content p {
   font-size: 16px;
   opacity: 0.7;
 }
