@@ -52,6 +52,7 @@ footer p {
   line-height: 30px;
   opacity: 70%;
   margin-bottom: 0;
+  color: #8f6062;
 }
 .mail-link {
   color: black;
@@ -132,7 +133,7 @@ footer p {
 }
 .section-content p {
   font-size: 16px;
-  opacity: 0.7;
+  color: #8f6062;
 }
 .work-content-image {
   height: 500px;
