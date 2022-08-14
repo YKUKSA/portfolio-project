@@ -7,7 +7,9 @@
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4 {
   font-family: var(--primary-font);
 }
 h2 {
@@ -19,10 +21,31 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
-
+nav {
+  margin: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+.active {
+  color: var(--branding-color);
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  margin-right: 15px;
+  font-size: 16px;
+  line-height: 42px;
+  list-style: none;
+}
 footer h4 {
   font-size: 48px;
-  font-family: var(--primary-font);
 }
 footer p {
   font-size: 16px;
@@ -117,29 +140,7 @@ footer p {
 .logo {
   max-height: 40px;
 }
-nav {
-  margin: 10px;
-}
-nav a {
-  text-decoration: none;
-  color: #272142;
-  transition: all 100ms ease-in-out;
-}
-nav a:hover,
-.active {
-  color: var(--branding-color);
-}
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-nav li {
-  display: inline;
-  margin-right: 15px;
-  font-size: 16px;
-  line-height: 42px;
-  list-style: none;
-}
+
 .contact-box {
   background-color: var(--primary-color);
   padding: 30px 120px;
